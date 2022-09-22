@@ -106,6 +106,7 @@ div {
 #footer{
     font-size: 15px;
     margin-left: 5%;
+    max-width: 65%;
 }
 a{
     color: #743bc9;
