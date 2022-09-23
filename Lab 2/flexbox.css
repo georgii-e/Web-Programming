@@ -50,14 +50,13 @@ section {
     align-items: center;
     text-align: center;
     background-color: #eaf1dd;
-    border-bottom:solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
     min-height: 10vh;
 }
 
 .item-3 {
     display: flex;
     flex: 1;
-    min-height: 10vh;
     align-items: center;
     text-align: center;
     background-color: whitesmoke;
@@ -79,7 +78,6 @@ section {
     text-align: center;
     align-items: center;
     background-color: #fde9d9;
-    min-height: 10vh;
 }
 
 .item-6 {
