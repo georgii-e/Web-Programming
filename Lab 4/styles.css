@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial Rounded MT";
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #494399;
+    color: white;
+}
+
+.flex-item {
+    font-size: 25px;
+}
+
+.header {
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    color: #b7b6ba;
+    margin-left: 15vw;
+}
+
+.menu {
+    display: flex;
+    margin-right: 15vw;
+    justify-content: end;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-left: 16vw;
+}
+
+.social_media {
+    display: flex;
+}
+
+.main {
+    max-width: 46vw;
+}
+
+.description {
+    align-content: start;
+    display: flex;
+    flex-direction: column;
+    max-width: 15vw;
+    margin-top: 16vh;
+}
+
+.rectangle {
+    position: absolute;
+    z-index: 0;
+    margin-left: 10vw;
+    width: 20vw;
+    height: 81vh;
+    background-color: #2cccc4;
+}
+
+.topic {
+    position: relative;
+    margin-top: 10vh;
+    font-size: 80px;
+}
+
+footer {
+    min-height: 13vh;
+    background-color: #333333;
+}
+
+#img_main {
+    position: relative;
+    margin-top: 1vh;
+    width: 90%;
+}
+
+.img_social {
+    width: 2%;
+    margin-left: 1%;
+    border-radius: 50%;
+}
+
+.goals-title {
+    color: #adb8eb
+}
+
+.goals-subtitle {
+    line-height: 20px;
+    font-size: 13px;
+    margin-top: 3vh;
+    margin-left: 2.5vw;
+}
+
+.goals-subsubtitle {
+    font-size: 14px;
+    margin-top: 2.5vh;
+    margin-left: 2.5vw;
+    letter-spacing: 2px;
+    text-decoration: underline;
+
+}
+
+.strategy-title {
+    margin-top: 10vh;
+    color: #adb8eb
+}
+
+.strategy-subtitle {
+    line-height: 20px;
+    font-size: 13px;
+    margin-top: 3vh;
+    margin-left: 2.5vw;
+}
+
+.strategy-subsubtitle {
+    font-size: 14px;
+    margin-top: 2.5vh;
+    margin-left: 2.5vw;
+    letter-spacing: 2px;
+    text-decoration: underline;
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-filling {
+    display: flex;
+    text-align: center;
+    font-size: 13px;
+    max-width: 21vw;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.menu-icon{
+    display: inline-block;
+    width: 1.5vw;
+    height: 0.3vh;
+    margin: 0.35vh;
+    background-color: white;
+}
+.icon:hover .menu-icon{
+    background-color: #2cccc4;
+    transition: 1.5s;
+}
+.icon{
+    display: flex;
+    margin-right: 1.5vw;
+    flex-direction: column;
+}
+
+a:hover {
+    color: #2cccc4;
+    transition: 1.5s;
+}
