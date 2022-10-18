@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Microsoft YaHei UI", serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.flex-item {
+    font-size: 25px;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-left: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.item-1, .item-7 {
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+    justify-content: start;
+    width: 65%;
+    min-width: min-content;
+}
+
+.item-2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #eaf1dd;
+    border-bottom: solid 1px #ccc;
+    min-height: 10vh;
+}
+
+.item-3 {
+    padding: 30px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.item-4 {
+    display: flex;
+    padding: 10px;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fde9d9;
+}
+
+.item-5 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #fde9d9;
+}
+
+.item-6 {
+    display: flex;
+    align-items: center;
+    background-color: #eaf1dd;
+    border-top: solid 1px #ccc;
+    min-height: 10vh;
+}
+
+.item-7 {
+    font-size: 15px;
+}
+
+.header, .footer {
+    min-height: 15vh;
+    display: flex;
+    background-color: #c6d9f1;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 1px #ccc;
+}
+
+.item-x, .item-y {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    background-color: whitesmoke;
+    border: solid 1px #ccc;
+    margin: 2%;
+    width: 25%;
+    min-width: min-content;
+    padding: 1%;
+}
+
+#img_main {
+    width: 60%;
+    border-radius: 80px;
+    padding: 1.5%;
+}
+
+a {
+    color: #743bc9;
+    text-decoration: none;
+    line-height: 35px;
+}
+
+.button {
+    border: solid 1px #ccc;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 10vw;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #c6d9f1;
+}
+
+.input-label {
+    display: flex;
+    justify-content: start;
+    font-size: 20px;
+}
+
+.input-words {
+    margin-left: 10px;
+    resize: none;
+}
+
+.count-button {
+    margin-left: 10px;
+}
+
+.calc-words-form {
+    display: flex;
+}
+
+.checkbox-label {
+    font-size: 20px;
+    padding: 10px;
+}
+.checkbox{
+    margin-right: 10px;
+}
+
+.change-filling-form-1, .change-filling-form-7{
+    /*display: flex;*/
+    display: none;
+    padding: 10px;
+    flex-direction: row;
+}
+.change-filling-form-2, .change-filling-form-3, .change-filling-form-4, .change-filling-form-5, .change-filling-form-6{
+    /*display: flex;*/
+    display: none;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.confirm-button{
+    margin-top: 10px;
+
+}
+.confirm-button-1, .confirm-button-7{
+    margin-left: 10px;
+}
+.reset-button{
+    display: none;
+}
